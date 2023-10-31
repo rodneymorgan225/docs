@@ -6,7 +6,7 @@ name: Purge Fastly
 
 on:
   workflow_dispatch:
-    inputs:
+    inputst:
       nuke_all:
         description: "Nuke all 'every-deployment' keys independent of language"
         required: false
